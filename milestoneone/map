@@ -1,0 +1,13 @@
+map
+
+
+
+opacity 0-1
+
+
+
+#home {
+
+}
+gradent
+#grad {background-image:linear-gradient(left to right)}

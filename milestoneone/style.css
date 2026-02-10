@@ -1,8 +1,19 @@
 #wraper {width:80%;
-margin-right;
-margin-left}
+margin-right:auto;
+margin-left:auto;
+background-color: white;
+max width: 2048px;
+min-width: 960px;
+box-shadow: 0 3px 3px color (66,66,66,0.3)}
+body {margin:0;
+background-image: linear-gradient(to bottom, );}
 hr {backround color:text-rendering: ;}
 nav {border:1px dotted rgb(65, 1, 1)}
 {display-block;
 padding : 10px;
 backround color:red;}
+.logo {width: 100px;}
+.hero {height: 300;
+width: 100%;
+background-image: (rose);
+background-color: ;}
