@@ -1,0 +1,18 @@
+Max min width makes it only able to go that surten width
+VEIW POINT hight/width maks it go all across the screen"hight:calc 100vh - 340px;"
+BOX MODEL Look at phone "box-sizing: border-box;        put it at the top of the body "(*=wild card) *{Box-sizing: border-box}
+
+Displays 
+css 
+to bing the section to where you want it.  "float:Left/right/none;" pick one of the three
+When stuck use clear "clear:both/right/left;"
+Images: <img src="img/name of image;
+colums "class:..."colum 1;"
+"overflow :hidden/scroll/auto;"
+Hover, hover can change colors "selector:hover{backround-color:red;} color :black"
+Focus/active/link/visited
+position" positon: relitive; bottom:60px; right:100px;
+z indects: 2;
+in the head ""
+<link herf="css name" rel="stylesheet" type="text/css">
+thursthday look up flex box and grid
