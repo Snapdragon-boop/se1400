@@ -16,3 +16,22 @@ z indects: 2;
 in the head ""
 <link herf="css name" rel="stylesheet" type="text/css">
 thursthday look up flex box and grid
+
+css
+ Flexs box and grid
+ Felx "display: felx;", "flex-direction: row,", "Flex-wrap", "flex-flow: colum wrap;" to makes space are "flex-sart/end, center, space-between/around/evenly" go to flexbox css in google
+ what does div do?
+   Grid
+   Grid is "dispaly: grid;" and "grid-template-colums:200px 300px 200px;"
+   repeat(6 )
+    assiment
+    wrapper {display:grid;
+    grid-auto --roes:minmax(0,50)}
+    gave us the code * put at top above body
+"margen:0;"
+ in the header do {grid-roe: 1/2; grid-column:2/-2;}
+main img{float:right;
+padding:left:2rem:}
+sticy lets the thing stay at the top "position:sticy;"
+"list-style-type: none"
+"flex-flow: row nowrap"
