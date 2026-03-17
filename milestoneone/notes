@@ -35,3 +35,29 @@ padding:left:2rem:}
 sticy lets the thing stay at the top "position:sticy;"
 "list-style-type: none"
 "flex-flow: row nowrap"
+
+Diffrent day 
+"grid-colum:1/9;" and "grid-row:1/2;"
+U can do "grid-area:3/2/4/-2;" this is "grid-column:2/-2;"combinded with" grid-row: 3/4;"
+you can use "a a a"
+with        "b c c"
+then        "b c c"
+This thing is called "grid-template-area:....;" Side nte for quizz "Q# when applying flex box to a column to the left. A# align-items:flex-end"
+
+How to make websites look good on hand held devises.
+<link href="mobile.css" rel="stylesheet" type="text/css" media="screen and (max-width:500px)" {code}
+we need a meta tag and it's "<meta name="viewport" content="width=device-width, initial-scale=1.0">"
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> {code}
+all this section needs to be at the bottom of the css page.
+@media screen and (max-width: 500px) {code}
+
+
+Assiment 
+utahtech 4 copy call it utahtech 5 
+open index file by right clicking and open with crome
+Go to "index.html" then go to "head" and write "<meta name="viewport" content="width=divice-width, initial-scale=1.0">" 
+Then in beetween wrpaer and header add "<div id=bluebar></div>" and add "<div id=greybar></div>" same place
+do it to students page and facualty pages.
+Next we go to "css file" go to bottom of header and add "#bluebar {backround-color: #003058; grid-row:1/2; grid-column: 1/-1;}
+then add "#greybar {backround-color: #424242; grid-row:2/3; grid-column:1/-1;}
+find "#homehero, #studenthero, #facultyhero" change the it to show "{grid-row:3/4; and grid-column:1/-1;}"
