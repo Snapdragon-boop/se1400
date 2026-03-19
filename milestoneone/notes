@@ -35,8 +35,7 @@ padding:left:2rem:}
 sticy lets the thing stay at the top "position:sticy;"
 "list-style-type: none"
 "flex-flow: row nowrap"
-
-Diffrent day 
+Day 1
 "grid-colum:1/9;" and "grid-row:1/2;"
 U can do "grid-area:3/2/4/-2;" this is "grid-column:2/-2;"combinded with" grid-row: 3/4;"
 you can use "a a a"
@@ -61,3 +60,11 @@ do it to students page and facualty pages.
 Next we go to "css file" go to bottom of header and add "#bluebar {backround-color: #003058; grid-row:1/2; grid-column: 1/-1;}
 then add "#greybar {backround-color: #424242; grid-row:2/3; grid-column:1/-1;}
 find "#homehero, #studenthero, #facultyhero" change the it to show "{grid-row:3/4; and grid-column:1/-1;}"
+Now put this at the bottom it is "@media only screen and (max-width:1100px){ #wrapper {grid-template-columns: minmax(0px, 1fr) repeat(6,minmax(0, 150px))}" Not compleate
+then add this at the bottom "@media only screen and (max-width:900px){nav {grid-column:1/5; grid-row:2/3; position:static;} nav ul {flex-flow:column nowrap;
+#homehero, #studenthero, #facilyhero{grid-row:2/3; grid-column:5/8; height:auyo;} Main image {float:none; width:100%; hieght:auto; padding-left:0;}}"
+"@media only screen and (max-width:600px){header h1 {backround-image:none; text-align:center;} nav {grid-row:2/3; gird-column:1/-1;} #homehero, #studenthero, #facilyhero {display:none;}
+}"
+
+
+
