@@ -1,0 +1,47 @@
+Notes:Email
+<form action="https://kearl.net/se1400/mail.php" method="post" name="contact" autocomplete="on"> 
+ <label for="name"> Name: </label><input type="text" id="name" name="name" required> <br>
+   <label for="email"> Email:</label> <input type="email" id="email" name="email">  <br>
+   <label for="phone"> Phone:</label> <input type="tel" id="phone" name="phone" placeholder="123-456-7890"maxlangth="12"><br>
+    <label for="password">Password:</label> <input type="password" id="phone" name="password"><br>
+    <input type="submit" name="submit" value="send">
+
+</form>
+if you use get if you don't use for suqur things. 
+<form action="https://kearl.net/se1400/mail.php" method="get" name="contact" autocomplete="on"> 
+   <label for="name"> Name: </label><input type="text" id="name" name="name" required> <br>
+   <label for="email"> Email:</label> <input type="email" id="email" name="email">  <br>
+   <label for="phone"> Phone:</label> <input type="tel" id="phone" name="phone" placeholder="123-456-7890"maxlangth="12"><br>
+    <label for="password">Password:</label> <input type="password" id="phone" name="password"><br>
+    Date: <input type="date" 
+    Whats your favorite stuff?
+    <input tpye="cheackbox" name="stuff one" value="suff one" checked>stuff one<br>
+    <input tpye="cheackbox" name="stuff two" value="suff two">stuff two<br>
+    <input tpye="cheackbox" name="stuff three" value="suff three">stuff three<br>
+   Favrote stuff?
+    <input tpye="radio" name="stuff" value="suff one">stuff one<br>
+    <input tpye="radio" name="stuff" value="suff two">stuff two<br>
+    <input tpye="radio" name="stuff" value="suff three">stuff three<br>
+    <slecect> 
+        <option>option 1</option> 
+        <option>option 2</option>
+        <option>option 3</option>
+    </slecect><br>
+    Comments: <textarea name="Comments" cols="20" row="30"> </textarea> <br>
+    <input type="submit" name="submit" value="send">
+    <input type="hidden"name="hidden" value="my hidden field">"
+    <input type="reset" name ="reset" value="clear" size=25> 
+
+</form>
+
+
+
+Assiment:
+Make a new folder after copying utahtech5 to utahtech6.
+open up index go to file "save as" make sure to be in utahtech six and name it "alumni.html"
+Go to <title> Utahtech::alumni</title> copy paste three
+change the <div> to <div> id="alumnihero"</div> and h2 to <h2> Join Alumni Mailing list </h2> add <h3> Request Alumni Newsletter</h3> that is in main <main></main>
+Add <form method="post" action="https://kearl.net/se1400/mail.php">
+    <label for="myFName"> First name: </label> <input type="text" name="myFName" id="myFName">
+         </form> in the main too
+
