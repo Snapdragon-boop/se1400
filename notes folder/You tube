@@ -15,7 +15,7 @@ if you use get if you don't use for suqur things.
     <label for="password">Password:</label> <input type="password" id="phone" name="password"><br>
     Date: <input type="date" 
     Whats your favorite stuff?
-    <input tpye="cheackbox" name="stuff one" value="suff one" checked>stuff one<br>
+    <input tpye="cheackbox" name="stuff one" value="suff one" checked> stuff one<br>
     <input tpye="cheackbox" name="stuff two" value="suff two">stuff two<br>
     <input tpye="cheackbox" name="stuff three" value="suff three">stuff three<br>
    Favrote stuff?
@@ -41,9 +41,31 @@ Make a new folder after copying utahtech5 to utahtech6.
 open up index go to file "save as" make sure to be in utahtech six and name it "alumni.html"
 Go to <title> Utahtech::alumni</title> copy paste three
 change the <div> to <div> id="alumnihero"</div> and h2 to <h2> Join Alumni Mailing list </h2> add <h3> Request Alumni Newsletter</h3> that is in main <main></main>
-Add <form method="post" action="https://kearl.net/se1400/mail.php">
+Add <form method="post" action="https://wfc.flitchbeta.com/se1400/index.php">
     <label for="myFName"> First name: </label> <input type="text" name="myFName" id="myFName">
     <label for="myLName"> Last name: </label> <input type="text" name="myLName" id="myLName">
     <label for="myEmail">Email: </label> <input type="email" name="myEmail" id="myEmail">
-    </form> in main too
+    <label for="myPhone">Phone:</label> <input type="tel" name="myPhone" id="myPhone">
+    <label for="myComments"></label><textarea name="myComments" id="myComments" rows="2" cols="20"></textarea>
+    <input type="submit" value="Summit" id="mySummit">
+    </form> in the main tag
+    Go to CSS and head to right above your first @media 
+    form{
+        display:gris;
+        gird-template-rows:atuo;
+        grid-template-columns:200px 1fr;
+        gap;0.75rem;
+        width:100%;
+    }
+    input, textarea{
+        font-size:1rem;
+        padding:10px;
+        color:666;
+        backround-color:#fafafa;
+        border:none;
+    }
+    input:focus, textarea:focus{
+        outline:none;
+        background-color:#f0f0f0;
+    }
 
