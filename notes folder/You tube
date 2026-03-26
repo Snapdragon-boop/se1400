@@ -40,13 +40,17 @@ Assiment:
 Make a new folder after copying utahtech5 to utahtech6.
 open up index go to file "save as" make sure to be in utahtech six and name it "alumni.html"
 Go to <title> Utahtech::alumni</title> copy paste three
-change the <div> to <div> id="alumnihero"</div> and h2 to <h2> Join Alumni Mailing list </h2> add <h3> Request Alumni Newsletter</h3> that is in main <main></main>
+change the <div> to <div> id="alumnihero"</div> and h2 to <h2> Join Alumni Mailing list </h2> 
+ <h3> Request Alumni Newsletter</h3>
+  <p>Required information is marked with an asterisk (*)</p>
+   go to main Exzample:<main></main>
 Add <form method="post" action="https://wfc.flitchbeta.com/se1400/index.php">
-    <label for="myFName"> First name: </label> <input type="text" name="myFName" id="myFName">
-    <label for="myLName"> Last name: </label> <input type="text" name="myLName" id="myLName">
-    <label for="myEmail">Email: </label> <input type="email" name="myEmail" id="myEmail">
+    <label for="myFName">*First name: </label> <input type="text" name="myFName" id="myFName" required> 
+    <label for="myLName">*Last name: </label> <input type="text" name="myLName" id="myLName" required>
+    <label for="myEmail">*Email: </label> <input type="email" name="myEmail" id="myEmail" required>
     <label for="myPhone">Phone:</label> <input type="tel" name="myPhone" id="myPhone">
-    <label for="myComments"></label><textarea name="myComments" id="myComments" rows="2" cols="20"></textarea>
+    <label for="myGraduation"> Graduation Date:</label> <input type="date" name="myGraduation">
+    <label for="myComments">*Comments</label><textarea name="myComments" id="myComments" rows="2" cols="20" required></textarea>
     <input type="submit" value="Summit" id="mySummit">
     </form> in the main tag
     Go to CSS and head to right above your first @media 
@@ -77,7 +81,7 @@ Add <form method="post" action="https://wfc.flitchbeta.com/se1400/index.php">
         grid-colum:2/3;
 
     }
-    #aumnihero {
-        height:300
-    }
+    #aumnihero add to all the other heros 
+
+    
 
