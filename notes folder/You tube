@@ -68,4 +68,16 @@ Add <form method="post" action="https://wfc.flitchbeta.com/se1400/index.php">
         outline:none;
         background-color:#f0f0f0;
     }
+    label {
+        padding:10px;
+        text-align:right;
+    }
+    #mySummit {
+        width:10rem;
+        grid-colum:2/3;
+
+    }
+    #aumnihero {
+        height:300
+    }
 
