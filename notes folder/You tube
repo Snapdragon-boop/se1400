@@ -43,5 +43,7 @@ Go to <title> Utahtech::alumni</title> copy paste three
 change the <div> to <div> id="alumnihero"</div> and h2 to <h2> Join Alumni Mailing list </h2> add <h3> Request Alumni Newsletter</h3> that is in main <main></main>
 Add <form method="post" action="https://kearl.net/se1400/mail.php">
     <label for="myFName"> First name: </label> <input type="text" name="myFName" id="myFName">
-         </form> in the main too
+    <label for="myLName"> Last name: </label> <input type="text" name="myLName" id="myLName">
+    <label for="myEmail">Email: </label> <input type="email" name="myEmail" id="myEmail">
+    </form> in main too
 
