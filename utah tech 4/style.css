@@ -5,10 +5,6 @@ body {
     color: #666666;
     font-family: Verdana, Arial, sans-serif;
     margin: 0;
-     display: grid;
-  grid-template-columns: repeat(8, 1fr); /* or whatever column setup you want */
-  grid-template-rows: auto 1fr auto;     /* example row setup */
-  min-height: 100vh;
 
 }
 
@@ -17,12 +13,11 @@ header{
     color: #FFFFFF;
     font-family: Georgia, sans-serif;
   grid-row: 1 / 2;
-     text-decoration: none; 
-  color: #FFFFFF; 
+  grid-column: 2 / 8  ;
 }
 h1{ line-height: 140%;
   padding: .5rem;
-  background-image: url("utahtechlogo.png");
+  background-image: url("images/utahtechlogo.svg");
     background-repeat: no-repeat;
     background-position: right center;
     background-origin: content-box;
@@ -30,12 +25,12 @@ h1{ line-height: 140%;
     margin: 0;
 
 }
-nav a:hover {
-  background-color: #BA1C21;
+header a {
+  color:#ffffff;
+  text-decoration: none;;
 }
 
     nav {
-      padding: 0.5rem 0.5rem 0.5rem 2rem;
   font-weight: bold;
   background-color: #F3F3F3;
    grid-row: 2 / 3;
@@ -95,12 +90,7 @@ main {
   padding-right: 2rem;
 }
 #wrapper {
-  width: 80%;
-  min-width: 960px;
-  max-width: 2048px;
-  box-shadow: 0px 3px 3px rgba(66,66,66,0.3);
-  margin-right: auto;
-  margin-left: auto;
+
     display: grid;
   grid-auto-rows: minmax(0px, auto);
   grid-template-columns: minmax(0px, 1fr) repeat(6, minmax(0, 175px)) minmax(0px, 1fr);
