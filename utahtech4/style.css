@@ -59,7 +59,9 @@ nav ul {
 nav ul li {
   width: 100%;
 }
-
+nav a:hover {
+  background-color: #BA1C21;
+}
 h2 {
   color: #424242;
   font-family: Georgia, serif;
