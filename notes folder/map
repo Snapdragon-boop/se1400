@@ -1,13 +1,43 @@
 map
 
 
+tables
+<table>
+    <tr>
+        <td>type </td>
+        <td>food </td>
+        <td> good</td>
+        <td> gue</td>
+    </tr>
+</table>
+ <table>
+    <tr>
+        <td>right </td>
+        <td>wrong </td>
+        <td> write</td>
+        <td> tong</td>
+    </tr>
+</table>
+ <table>
+    <tr>
+        <td>vybj </td>
+        <td>nj  </td>
+        <td> hj</td>
+        <td> ftf</td>
+    </tr>
+</table>
 
-opacity 0-1
 
 
-
-#home {
-
+css
+table,tr,td,th{
+  border:1px 
+  solid #000;}
+table {
+  width:100%
 }
-gradent
-#grad {background-image:linear-gradient(left to right)}
+tr:nth-of-type(odd)
+{background-color: #ddd;}
+th{
+  background-color: #ccc;
+}
