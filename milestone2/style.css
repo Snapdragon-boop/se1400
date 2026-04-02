@@ -1,0 +1,23 @@
+#bluebar {background-color: #003058; grid-row:1/2; grid-column: 1/-1;}
+#greybar {background-color: #424242; grid-row:2/3; grid-column:1/-1;}'
+form{
+        display:gris;
+        gird-template-rows:atuo;
+        grid-template-columns:200px 1fr;
+        gap;0.75rem;
+        width:100%;
+    }
+    input, textarea{
+        font-size:1rem;
+        padding:10px;
+        color:666;
+        backround-color:#fafafa;
+        border:none;
+    }
+    input:focus, textarea:focus{
+        outline:none;
+        background-color:#f0f0f0;
+    }
+    label {
+        padding:10px;
+        text-align:right;
