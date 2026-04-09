@@ -118,8 +118,10 @@ main {
   grid-column: 1 / -1;
 }
 main img {
-  float: right;
-  padding-left: 2rem;
+float: none;
+width: 100%;
+height: auto;
+padding-left: 0;
 }
 #facultyhero {
   height: 300px;
@@ -141,5 +143,5 @@ main img {
 #bluebar {background-color: #003058; grid-row:1/2; grid-column: 1/-1;}
 #greybar {background-color: #424242; grid-row:2/3; grid-column:1/-1;}
 @media only screen and (max-width:1100px){ #wrapper {grid-template-columns: minmax(0px, 1fr) repeat(6,minmax(0, 150px))}}
-@media only screen and (max-width:900px){nav {grid-column:1/5; grid-row:2/3; position:static;} nav ul {flex-flow:column nowrap;}}
-@media only screen and (max-width:600px){header h1 {backround-image:none; text-align:center;} nav {grid-row:2/3; gird-column:1/-1;}}
+@media only screen and (max-width:900px){nav {grid-column:1/5; grid-row:2/3; position:static;} nav ul {flex-flow: column nowrap;}}
+@media only screen and (max-width:600px){header h1 {backround-image: none text-align:center;} nav {grid-row:2/3; gird-column:1/-1;}}

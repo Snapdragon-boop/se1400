@@ -129,8 +129,10 @@ main {
   grid-column: 1 / -1;
 }
 main img {
-  float: right;
-  padding-left: 2rem;
+float: none;
+width: 100%;
+height: auto;
+padding-left: 0;
 }
 #facultyhero {
   height: 300px;
