@@ -1,11 +1,10 @@
 body {
-  background: linear-gradient(to bottom, #eeeeee, #ffffff);
-  background-attachment: fixed;
+    background: linear-gradient(to bottom, #eeeeee, #ffffff);
+    background-attachment: fixed;
     background-color: #FFFFFF;
     color: #666666;
     font-family: Verdana, Arial, sans-serif;
     margin: 0;
-
 }
 
 header{
