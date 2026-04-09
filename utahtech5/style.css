@@ -30,12 +30,8 @@ header a {
   text-decoration: none;;
 }
 
-    nav {
-  font-weight: bold;
-  background-color: #F3F3F3;
-   grid-row: 2 / 3;
-  grid-column: 2 / 8;
-}
+ 
+
 nav a {
   background-color: #424242;
   padding: 0;
@@ -49,13 +45,7 @@ nav a {
   text-align: center;
 
 }
-nav ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-flow: row nowrap;
-  list-style-type: none;
-}
+
 nav ul li {
   width: 100%;
 }
@@ -116,13 +106,7 @@ main {
   background-position: center;
  grid-row: 3 / 4;
   grid-column: 1 / -1;
-}
-main img {
-float: none;
-width: 100%;
-height: auto;
-padding-left: 0;
-}
+} 
 #facultyhero {
   height: 300px;
   background-image: url("images/facultyhero.jpg");
@@ -130,18 +114,68 @@ padding-left: 0;
   background-repeat: no-repeat;
   background-position: center;
    grid-row: 3 / 4;
-  grid-column: 1 / -1;
+  grid-column:1/-1;
 }
 #homehero, #studenthero, #facilyhero{
   grid-row:2/3; 
   grid-column:5/8; 
-  height:auyo;} 
-  Main image {float:none; width:100%; hieght:auto; padding-left:0;}
+  height:auyo;
+} 
+#homehero,
+#studenthero,
+#facultyhero,
+#alumnihero {
+  display: none;
+}
 * {
   box-sizing: border-box;
 }
 #bluebar {background-color: #003058; grid-row:1/2; grid-column: 1/-1;}
 #greybar {background-color: #424242; grid-row:2/3; grid-column:1/-1;}
 @media only screen and (max-width:1100px){ #wrapper {grid-template-columns: minmax(0px, 1fr) repeat(6,minmax(0, 150px))}}
-@media only screen and (max-width:900px){nav {grid-column:1/5; grid-row:2/3; position:static;} nav ul {flex-flow: column nowrap;}}
-@media only screen and (max-width:600px){header h1 {backround-image: none text-align:center;} nav {grid-row:2/3; gird-column:1/-1;}}
+@media only screen and (max-width: 900px) {
+
+  nav {
+    grid-row: 2 / 3;
+    grid-column: 1 / 5;
+    position: static;
+  }
+
+  nav ul {
+    flex-flow: column nowrap;
+  }
+
+  #homehero,
+  #studenthero,
+  #facultyhero,
+  #alumnihero {
+    grid-row: 2 / 3;
+    grid-column: 5 / 8;
+    height: auto;
+  }
+
+  main img {
+    float: none;
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+  }
+@media only screen and (max-width: 600px) {
+
+  header h1 {
+    background-image: none;
+    text-align: center;
+  }
+
+  nav {
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+  }
+
+  #homehero,
+  #studenthero,
+  #facultyhero,
+  #alumnihero {
+    display: none;
+  }
+}
