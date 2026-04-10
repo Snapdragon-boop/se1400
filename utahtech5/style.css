@@ -131,12 +131,7 @@ main {
   grid-column:5/8; 
   height:auto;} 
   Main image {float:none; width:100%; hieght:auto; padding-left:0;}
-* {
-  box-sizing: border-box;
-}
-* {
-  box-sizing: border-box;
-}
+
 #bluebar {
   background-color: #003058;
   grid-row: 1/2;
