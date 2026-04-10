@@ -116,7 +116,17 @@ main {
    grid-row: 3 / 4;
   grid-column:1/-1;
 }
-#homehero, #studenthero, #facilyhero{
+#aumnihero {
+  height: 300px;
+  background-image: url("images/facultyhero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+   grid-row: 3 / 4;
+  grid-column:1/-1;
+}
+#homehero, #studenthero, #facilyhero, #aumnihero {
+
   grid-row:2/3; 
   grid-column:5/8; 
   height:auyo;
