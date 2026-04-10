@@ -12,7 +12,7 @@ header{
     color: #FFFFFF;
     font-family: Georgia, sans-serif;
   grid-row: 1 / 2;
-  grid-column: 2 / 8  ;
+  grid-column: 2 / 8 ;
 }
 h1{ line-height: 140%;
   padding: .5rem;
@@ -33,7 +33,7 @@ header a {
   font-weight: bold;
   background-color: #F3F3F3;
    grid-row: 2 / 3;
-  grid-column: 2 / 8;
+  grid-column: 2 / 5;
 }
 nav a {
   background-color: #424242;

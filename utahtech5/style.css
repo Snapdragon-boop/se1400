@@ -34,7 +34,7 @@ header a {
   font-weight: bold;
   background-color: #ffffff;
    grid-row: 2 / 3;
-  grid-column: 1 / -1
+  grid-column: 2 / 5;
 }
 nav a {
   background-color: #424242;
