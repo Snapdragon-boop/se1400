@@ -49,7 +49,11 @@ nav a {
   text-align: center;
 
 }
-
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
 nav ul li {
   width: 100%;
 }

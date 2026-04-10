@@ -41,7 +41,11 @@ nav a {
   transition:backround-color 0.5s ease-out;
 
 }
-
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
 nav ul li {
   width: 100%;
 }
@@ -126,9 +130,16 @@ main {
 * {
   box-sizing: border-box;
 }
-
-#bluebar {background-color: #003058; grid-row:1/2; grid-column: 1/-1;}
-#greybar {background-color: #424242; grid-row:2/3; grid-column:1/-1;}
+#bluebar {
+  background-color: #003058;
+  grid-row: 1/2;
+  grid-column: 1/-1;
+}
+#greybar {
+  background-color: #424242;
+  grid-row: 2/3;
+  grid-column: 2/5 ;
+}
 video {float:right;
   margin-left:2em;}
 @media only screen and (max-width:1100px){ #wrapper {grid-template-columns: minmax(0px, 1fr) repeat(6,minmax(0, 150px))}}
