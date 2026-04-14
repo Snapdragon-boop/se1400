@@ -130,9 +130,7 @@ main {
   grid-column:1/-1;
 }
 
-* {
-  box-sizing: border-box;
-}
+
 #bluebar {
   background-color: #003058;
   grid-row: 1/2;
