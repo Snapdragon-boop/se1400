@@ -22,7 +22,6 @@ h1{ line-height: 140%;
     background-origin: content-box;
     padding-left: 1em;
     margin: 0;
-
 }
 header a {
   color:#ffffff;
@@ -46,7 +45,6 @@ nav a {
   padding: 1rem 0rem;
   display: block;
   text-align: center;
-
 }
 ul {
   list-style-type: none;
