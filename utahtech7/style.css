@@ -33,7 +33,7 @@ header a {
   font-weight: bold;
   background-color: #F3F3F3;
    grid-row: 2 / 3;
-  grid-column: 2 / 5;
+  grid-column: 2 / 8;
 }
 nav a {
   background-color: #424242;
@@ -89,8 +89,17 @@ footer {
   grid-row: 5 / 6;
   grid-column: 2 / -2;
 }
-
-
+table,tr,td,th{
+  border:1px 
+  solid #000;}
+table {
+  width:100%
+}
+tr:nth-of-type(odd)
+{background-color: #ddd;}
+th{
+  background-color: #ccc;
+}
 main {
    background: #ffffff;
   grid-row: 4 / 5;
@@ -98,6 +107,7 @@ main {
   padding-left: 2rem;
   padding-right: 2rem;
 }
+
 #wrapper {
 
     display: grid;
@@ -142,11 +152,7 @@ main {
    grid-row: 3 / 4;
   grid-column:1/-1;
 }
-#homehero, #studenthero, #facilyhero{
-  grid-row:2/3; 
-  grid-column:5/8; 
-  height:auto;} 
-  Main image {float:none; width:100%; hieght:auto; padding-left:0;}
+
 * {
   box-sizing: border-box;
 }
@@ -158,7 +164,7 @@ main {
 #greybar {
   background-color: #424242;
   grid-row: 2/3;
-  grid-column: 2/5 ;
+  grid-column: 1/-1 ;
 }
 main img {
   float:right;
