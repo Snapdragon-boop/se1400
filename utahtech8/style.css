@@ -48,10 +48,12 @@ nav a {
   display: block;
   text-align: center;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+nav ul {
   margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  list-style-type: none;
 }
 nav ul li {
   width: 100%;
@@ -81,6 +83,17 @@ footer {
   text-align: center;
   grid-row: 5 / 6;
   grid-column: 2 / -2;
+}
+table,tr,td,th{
+  border:1px 
+  solid #000;}
+table {
+  width:100%
+}
+tr:nth-of-type(odd)
+{background-color: #ddd;}
+th{
+  background-color: #ccc;
 }
 main {
    background: #ffffff;
