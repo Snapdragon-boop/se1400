@@ -217,7 +217,6 @@ video {float:right;
 grid-template-columns: 1fr 1fr 1fr;
   grid-auto-rows: auto;
  }
-
   #shoppingcart img {
     width:100%;
     height:auto;
