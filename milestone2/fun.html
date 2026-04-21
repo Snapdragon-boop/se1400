@@ -12,40 +12,41 @@
     <div id=bluebar></div>
     <div id=greybar></div>
   <header>
-   <h1><a href="index.html">Utah Tech University</a></h1>
+   <h1>Contact information</a></h1>
    
   </header>
-  <nav>
-    <ul class="nav">
-     <li><a href="index.html">Home</a></li>
-      <li><a href="students.html">Students</a> </li>
-      <li><a href="faculty.html">Faculty</a></li>
-     <li> <a href="alumni.html">Alumni</a></li>
-      </ul>
+   <style> 
+     a {
+    color:rgb(4, 120, 113);
+    font-weight:bold;
+    text-transform: uppercase ;}
+    </style>
+ <nav>
+<li> <a href="milestone start.html">Home</a></li>
+<li> <a href="competition.html">Competition</a></li> 
+<li> <a href="audience.html">Audience</a></li>
+<li> <a href="fun.html">Form</a></li>
   </nav>
-  <div id="alumnihero"></div>
+  <div id="funhero"></div>
  
   
   <main>
    
-   <h2> Join Alumni Mailing list </h2>
-    <p>A <span class="ut">Utah Tech</span> education means active learning within all academic disciplines. Hands-on learning, industry partnerships, and a dynamic student-life experience prepare students for successful careers and meaningful lives.</p>
-    <h3> Request Alumni Newsletter</h3>
+   <h2> Join Mailing list </h2>
+    <p>A list where you can join to see the times and you can ask qutions.</p>
      <p>Required information is marked with an asterisk (*)</p>
-    <form method="post" action="https://wfc.flitchbeta.com/se1400/index.php">
+    <form method="post" onsubmit="return validateForm();" action="https://wfc.flitchbeta.com/se1400/index.php" >
     <label for="myFName">*First name: </label> <input type="text" name="myFName" id="myFName" required> 
-    <label for="myLName">*Last name: </label> <input type="text" name="myLName" id="myLName" required>
-    <label for="myEmail">*Email: </label> <input type="email" name="myEmail" id="myEmail" required>
-    <label for="myPhone">Phone:</label> <input type="tel" name="myPhone" id="myPhone">
-    <label for="myGraduation"> Graduation Date:</label> <input type="date" name="myGraduation">
-    <label for="myComments">*Comments</label><textarea name="myComments" id="myComments" rows="2" cols="20" required></textarea>
+    <label for="myLName">Last name: </label> <input type="text" name="myLName" id="myLName">
+    <label for="myEmail">*Email: </label> <input type="email" name="myEmail" id="myEmail"required>
+    <label for="myPhone">*Phone:</label> <input type="tel" name="myPhone" id="myPhone" required>
+    <label for="myComments">Comments</label><textarea name="myComments" id="myComments" rows="2" cols="20"></textarea>
     <input type="submit" value="Summit" id="mySummit">
     </form>
     
   </main>
   <footer>
-      Copyright &copy; 2025 Utah Tech University<br>
-      <a href="mailto:d00543730@utahtech.edu">d00543730@utahtech.edu</a>
+      Copyright &copy;<br>
   </footer>
    </div>
 </body>
