@@ -104,3 +104,30 @@ form{
   grid-row: 3 / 4;
   grid-column: -4/ -2;
 }
+ #ruhero {
+  height: 600px;
+  background-image: url("photos/rubank.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-row: 3 / 4;
+  grid-column: -4/ -2;
+}
+ #dihero {
+  height: 600px;
+  background-image: url("photos/disney.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-row: 3 / 4;
+  grid-column: -4/ -2;
+} 
+ #notehero {
+  height: 600px;
+  background-image: url("photos/notebook.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-row: 3 / 4;
+  grid-column: -4/ -2;
+}
