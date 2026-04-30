@@ -143,6 +143,16 @@ form{
   grid-row: 3 / 4;
   grid-column: -4/ -2;
 }
+a {
+    color: #0077cc;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 body {
     background: linear-gradient(to bottom, #eaf6ff, #ffffff);
 }
