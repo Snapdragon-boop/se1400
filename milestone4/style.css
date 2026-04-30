@@ -16,6 +16,18 @@ nav ul {
   display: flex;
   gap: 1rem;
 }
+form {
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+}
+main {
+    padding: 2rem;
+}
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #0077cc;
+}
 
 footer {
   padding: 1rem;
@@ -131,14 +143,73 @@ form{
   grid-row: 3 / 4;
   grid-column: -4/ -2;
 }
+body {
+    background: linear-gradient(to bottom, #eaf6ff, #ffffff);
+}
+
 @media (max-width: 992px) {
-    .center-column {
-        width: 768px;
+    #wrapper {
+        grid-template-columns: minmax(0, 1fr) repeat(6, minmax(0, 125px)) minmax(0, 1fr);
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
     }
 }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
 @media (max-width: 768px) {
-    .grid-container {
+
+    /* Make the grid 1 column */
+    #wrapper {
         grid-template-columns: 1fr;
     }
+
+    header,
+    nav,
+    #flutehero,
+    #perhero,
+    #ruhero,
+    #dihero,
+    #notehero,
+    main,
+    footer {
+        grid-column: 1 / -1;
+    }
+
+    /* Stack nav items vertically */
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    /* Make hero images responsive */
+    #flutehero,
+    #perhero,
+    #ruhero,
+    #dihero,
+    #notehero {
+        height: 200px;
+        background-size: cover;
+    }
+
+    /* Make images scale */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Reduce padding on main content */
+    main {
+        padding: 1rem;
+    }
 }
+
+
 
