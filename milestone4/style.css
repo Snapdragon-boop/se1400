@@ -131,3 +131,14 @@ form{
   grid-row: 3 / 4;
   grid-column: -4/ -2;
 }
+@media (max-width: 992px) {
+    .center-column {
+        width: 768px;
+    }
+}
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+
