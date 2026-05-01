@@ -11,25 +11,41 @@ grid-auto-rows: minmax(0px, auto);
 }
 nav {
     grid-column: -3/-2;
+    grid-row: 1/2;
     background-color: #93bfa8;
 }
 main{
     grid-column: 2/-3;
+    grid-row: 1/2;
     background-color: #fff;
     padding: 20px;
 
 }
 footer{
     grid-column: 2/-2;
+    grid-row: 2/3;
     background-color: rgb(34, 58, 81);
     color #c2c2c2
     padding: 20px;
     font-size:1rem;
 }
+.clear{clear:both;
+}
+
 p{
     line-height: 1.25rem;
 }
 a{
     color: #585b59;
 }
-h3 {}
+h3 {
+    border-bottom: 2px #555 solid;
+    color: #555;
+}
+.side {
+width:300px;
+padding: 20px;
+font-style: italic;
+font-size: .75rem;
+float: right;
+}
