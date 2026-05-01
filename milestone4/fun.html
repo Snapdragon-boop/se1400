@@ -9,7 +9,16 @@
 </head>
 
 <body>
+<script>
+function buttonEffect() {
+    const btn = document.getElementById("mySummit");
+    btn.classList.add("shake");
 
+    setTimeout(() => {
+        btn.classList.remove("shake");
+    }, 600);
+}
+</script>
 <div id="wrapper">
 
     <header>
@@ -52,7 +61,8 @@
             <label for="myComments">Comments:</label>
             <textarea name="myComments" id="myComments" rows="2" cols="20"></textarea>
 
-            <input type="submit" value="Submit" id="mySummit">
+            <input type="submit" value="Submit" id="mySummit" onclick="buttonEffect()">
+
         </form>
     </main>
 
